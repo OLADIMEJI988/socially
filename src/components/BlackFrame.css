@@ -1,0 +1,89 @@
+.blackFrame{
+    margin-bottom: 50px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    background-color: black;
+    display: flex;
+    gap: 50px;
+    box-shadow: 
+    8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blackFrametext{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+    color: var(--background-color);
+}
+
+.img{
+    height: 150px;
+    margin-top: 18px;
+}
+
+.blackFrameArrowHolder{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    gap: 10px;
+}
+
+.blackFrameArrowContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 51, 102, 1);
+    cursor: pointer;
+    border: none;
+}
+
+/* .arrow{
+    height: 45px;
+} */
+
+.blackFrametext2{
+    font-size: 14px;
+    font-family: 'Merriweather';
+    opacity: 0.6;
+    letter-spacing: 0.01em;
+    color: var(--background-color);
+}
+
+@media (max-width: 376px)  {
+    .blackFrame{
+        width: 790px;
+        padding: 23px 21px;
+    }
+
+    .blackFrametext{
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .blackFrameImg{
+        height: 255px;
+        margin-top: 70px;
+    }
+
+    .blackFrameArrowHolder{
+        margin-top: 161px;
+    }
+
+    .blackFrameArrowContainer{
+        height: 65px;
+        width: 65px;
+    }
+
+    .arrow{
+        height: 70px;
+    }
+
+    .blackFrametext2{
+        font-size: 25px;
+    }
+}

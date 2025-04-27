@@ -1,0 +1,197 @@
+/* Container */
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* flex-direction: row; */
+    height: 100vh;
+}
+
+body {
+   font-family: 'Merriweather', sans-serif;
+}
+
+.branding h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+.illustration {
+    width: 75%;
+    margin-top: 20px;
+}
+  
+  /* Right Section */
+.right-section {
+    min-width: 45%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+  
+.right-section h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+  
+.right-section p {
+    color: #6b7280;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+  
+  /* Social Login Buttons */
+.social-buttons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+  
+.google-button,
+.apple-button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.google-button:hover,
+.apple-button:hover {
+    background: #f3f4f6;
+}
+  
+.icon {
+    width: 20px;
+    margin-right: 10px;
+}
+  
+  /* Separator */
+.separator {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #d1d5db;
+    line-height: 0.1em;
+    margin: 15px 0 30px;
+}
+  
+.separator::before {
+    content: "or";
+    background: white;
+    padding: 0 10px;
+    color: #6b7280;
+}
+  
+  /* Input Groups */
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+  
+.input-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+  
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+  
+  /* Checkbox */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+  
+.checkbox-group input {
+    margin-right: 8px;
+}
+  
+  /* Login Button */
+.login-button {
+    width: 100%;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    font-family: 'Merriweather', sans-serif;
+}
+  
+.login-button:hover {
+    background-color: #172554;
+}
+
+.signup-link a{
+    color: #66B2FF;
+    text-decoration: none;
+}
+  
+.signup-link{
+    margin-top: 10px;
+}
+
+.bubbles {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .mainbg{
+      display: none;
+    }
+
+    .bubbles{
+        display: flex;
+    }
+
+    .container{
+        gap: 0;
+    }
+
+    .right-section{
+        margin-top: auto;
+        margin-bottom: auto;
+        justify-items: center;
+        align-items: center;
+        min-width: 100%;
+    }
+
+    .social-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .right-section h2 {
+        font-size: 1.7rem;
+    }
+
+    .right-section p {
+        font-size: 14px;
+    }
+
+}

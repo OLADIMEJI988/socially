@@ -1,0 +1,173 @@
+.featuresHolder{
+    display: flex;
+    margin: 95px 50px 50px;
+    gap: 40px;
+    align-items: center;
+}
+  
+.features{
+    background-color: rgba(0, 51, 102, 1);
+    color: var(--background-color);
+    padding: 5px;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.01em;
+}
+  
+.offersText{
+    width: 18pc;
+    font-size: 14px;
+    opacity: 0.65;
+    line-height: 1.3pc;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.frames{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 0 50px;
+}
+
+.mobileFrames{
+    display: none;
+}
+
+.connFrame{
+    display: flex;
+    margin: 40px 50px;
+    background-color: rgb(242 242 242);
+    border-radius: 25px;
+    padding: 26px 37px;
+}
+
+.textSection{
+    margin-right: auto;
+}
+
+.title{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: "Merriweather";
+    letter-spacing: 0.02em;
+    line-height: 34px;
+    width: 400px;
+}
+
+.subSection{
+    font-size: 15px;
+    opacity: 0.7;
+    font-family: "Roboto";
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    margin-top: 22px;
+    margin-bottom: 40px;
+    width: 430px;
+}
+
+.connBtn{
+    height: 45px;
+    width: 11.5pc;
+    border-radius: 13px;
+    font-size: 13px;
+    letter-spacing: 0.025em;
+    color: var(--background-color);
+    background-color: rgba(0, 51, 102, 1);
+    border: none;
+    font-family: "Roboto";
+    /* font-family: 'Merriweather', sans-serif; */
+}
+
+.connBtn2{
+    display: none;
+}
+
+.PositivePplImg{
+    height: 270px;
+    width: 380px;
+}
+
+@media (max-width: 376px) {
+    .featuresHolder{
+        flex-direction: column;
+        margin: 220px 25px 60px;
+        gap: 25px;
+        align-items: start;
+        width: 800px;
+    }
+
+    .features{
+        font-size: 55px;
+        padding: 9px;
+    }
+    
+    .offersText{
+        font-size: 35px;
+        width: 690px;
+        line-height: 2.6pc;
+    }
+
+    .frames{
+        display: none;
+    }
+
+    .mobileFrames{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 850px;
+    }
+
+    .connFrame{
+        flex-direction: column;
+        align-items: center;
+        margin: 150px 29px;
+        padding: 50px 40px;
+        width: 790px
+    }
+
+    .textSection{
+        margin-right: 0;
+    }
+
+    .title{
+        font-size: 52px;
+        letter-spacing: 0.02em;
+        line-height: 82px;
+        width: 600px;
+    }
+
+    .subSection{
+        font-size: 29px;
+        line-height: 43px;
+        width: auto;
+        margin-top: 45px;
+        margin-bottom: 70px;
+    }
+
+    .PositivePplImg{
+        height: 440px;
+        width: auto;
+    }
+
+    .connBtn{
+        display: none;
+    }
+
+    .connBtn2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 105px;
+        width: 24pc;
+        border-radius: 18px;
+        margin-top: 150px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        letter-spacing: 0.025em;
+        color: var(--background-color);
+        background-color: rgba(0, 51, 102, 1);
+        border: none;
+        font-family: "Roboto";
+    }
+}

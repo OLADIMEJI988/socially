@@ -1,0 +1,92 @@
+.whiteFrame{
+    margin-bottom: 50px;
+    border: 2px solid #d1d5db;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    box-shadow: 
+    /* 0 0 8px rgba(0, 0, 0, 0.1), */
+    0 6px 4px black;
+    display: flex;
+    gap: 50px;
+}
+
+.whiteFrameText{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+}
+
+.whiteFrameImg{
+    height: 150px;
+    margin-top: 18px;
+}
+
+.whiteFrameArrowHolder{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    gap: 10px;
+}
+
+.whiteFrameArrowContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 51, 102, 1);
+    cursor: pointer;
+    border: none;
+}
+
+.arrow{
+    height: 45px;
+}
+
+.whiteFrameText2{
+    font-size: 14px;
+    font-family: 'Merriweather';
+    opacity: 0.6;
+    letter-spacing: 0.01em;
+}
+
+@media (max-width: 376px) {
+    .whiteFrame{
+        width: 790px;
+        border: 3px solid #d1d5db;
+        box-shadow: 
+        /* 0 0 8px rgba(0, 0, 0, 0.1), */
+        0 12px 5px black;
+        padding: 23px 21px;
+    }
+
+    .whiteFrameText{
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .whiteFrameImg{
+        height: 255px;
+        margin-top: 70px;
+    }
+
+    .whiteFrameArrowHolder{
+        margin-top: 127px;
+    }
+
+    .whiteFrameArrowContainer{
+        height: 65px;
+        width: 65px;
+    }
+
+    .arrow{
+        height: 70px;
+    }
+
+    .whiteFrameText2{
+        font-size: 25px;
+    }    
+}

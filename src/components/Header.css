@@ -1,0 +1,314 @@
+.hamburger {
+  display: none;
+}
+
+header {
+  background-color: var(--blue-color);
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
+  height: 75px;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
+  /* width: 100%; */
+  /* z-index: 1; */
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.mobileHeader{
+  display: none;
+}
+
+.container {
+  width: 1440px;
+  max-width: 96%;
+  padding-left: 40px;
+  /* margin: auto; */
+}
+
+.mainContainer{
+  display: flex;
+  /* margin-left: 70px; */
+  margin: 45px 70px;
+  gap: 50px;
+  /* justify-content: center; */
+  /* max-width: 300px; */
+  /* margin-top: 50px; */
+}
+
+/* .logo-container {
+  margin-right: 16px;
+} */
+
+.logo {
+  /* width: 100px;
+  height: 100px;
+  object-fit: contain; */
+  width: auto;
+  height: 23px;
+}
+
+.nav-links {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-items: center;
+}
+
+.nav-item {
+  margin-right: 32px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  /* position: relative; */
+  font-family: 'Merriweather', sans-serif;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.nav-item:hover {
+  color: #66b2ff;
+}
+
+/* .nav-item.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 40%;
+  height: 1px;
+  background-color: #66b2ff;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+/* .user-icon {
+  margin-left: 16px;
+} */
+
+/* .header-icon {
+  height: 45px;
+}
+
+.user-icon:hover {
+  cursor: pointer;
+} */
+
+.loginBtn{
+  border-radius: 13px;
+  border: 3px solid rgba(102, 178, 255, 1);
+  background-color: transparent;
+  height: 45px;
+  width: 170px;
+  color: var(--background-color);
+  font-family: 'Merriweather', sans-serif;
+  opacity: 0.8;
+  margin-left: -90px;
+}
+
+.loginBtn:hover{
+  transform: scale(0.95);
+  z-index: 2;
+  transition: 0.5s all ease !important;
+  cursor: pointer;
+}
+
+.motifContainer{
+  width: 350px;
+  margin-right: auto;
+}
+
+.motif{
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Merriweather';
+  line-height: 2.4pc;
+  margin-bottom: 28px;
+}
+
+.mission{
+  font-size: 14px;
+  margin-bottom: 28px;
+  opacity: 0.60;
+  line-height: 19px;
+}
+
+.landingPageImg{
+  max-height: 310px;
+}
+
+.mobileLandingPageImg{
+  display: none;
+}
+
+.connectBtn{
+  height: 45px;
+  width: 11.5pc;
+  border-radius: 13px;
+  font-size: 13px;
+  letter-spacing: 0.025em;
+  color: var(--background-color);
+  background-color: rgba(0, 51, 102, 1);
+  border: none;
+  font-family: "Roboto";
+  /* font-family: 'Merriweather', sans-serif; */
+}
+
+.connectBtn2{
+  display: none;
+}
+
+.connectBtn:hover{
+  transform: scale(0.95);
+  z-index: 2;
+  transition: 0.5s all ease !important;
+  cursor: pointer;
+}
+
+.navPopUp{
+  display: none;
+}
+
+
+@media (max-width: 376px) {
+  header{
+    display: none;
+  }
+
+  .mobileHeader{
+    display: flex;
+    background-color: rgba(0, 51, 102, 1);
+    align-items: center;
+    width: 851px;
+    padding: 75px 25px;
+    justify-content: space-between;
+  }
+
+  .menuBtn{
+    background-color: transparent;
+    border: none;
+  }
+
+  .hamburgerMenu{
+    height: 50px;
+  }
+
+  .headerLogo{
+    height: 40px;
+  }
+
+  .userIconContainer{
+    background-color: rgba(10, 78, 147, 1);
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .whiteUserIcon{
+    height: 38px;
+  }
+
+  .navPopUp{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 51, 102, 1);
+    width: 851px;
+    font-family: "Merriweather";
+    font-size: 42px;
+    gap: 55px;
+    padding: 45px 25px;
+    transform: translateY(-1px);
+    letter-spacing: 0.01em;
+  }
+
+  .navPopUp a{
+    text-decoration: none;
+    color: var(--background-color);
+  }
+
+  .closePopUpConn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: transparent; 
+    border: none;
+  }
+
+  .closePopUpBtn{
+    height: 25px;
+    width: 65px;
+  }
+
+  .mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 45px 0;
+  }
+
+  .motifContainer{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .motif{
+    font-size: 47px;
+    width: 650px;
+    text-align: center;
+    line-height: 75px;
+    letter-spacing: 0.02em;
+    margin-bottom: 52px;
+  }
+
+  .mission{
+    text-align: center;
+    font-size: 29px;
+    line-height: 44px;
+    width: 630px;
+    margin-bottom: 10px;
+  }
+
+  .landingPageImg{
+    display: none;
+  }
+
+  .mobileLandingPageImg{
+    display: flex;
+    height: 580px;
+    margin-left: -25px;
+    margin-bottom: 10px;
+  }
+
+  .connectBtn{
+    display: none;
+  }
+
+  .connectBtn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 24pc;
+    border-radius: 18px;
+    font-size: 30px;
+    letter-spacing: 0.025em;
+    font-family: "Roboto";
+    color: var(--background-color);
+    background-color: rgba(0, 51, 102, 1);
+    border: none;
+  }
+
+}

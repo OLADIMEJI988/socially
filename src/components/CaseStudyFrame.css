@@ -1,0 +1,75 @@
+.caseStudiesContainer{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.userContainer{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.userProfileImg{
+    height: 40px;
+}
+
+.user{
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.remark{
+    font-family: "Merriweather";
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    line-height: 20px;
+    margin: 16px 0;
+}
+
+.seeCaseStudyContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.seeCaseStudyText{
+    font-family: "Merriweather";
+    font-size: 15px;
+    color: rgba(0, 51, 102, 1);
+    font-weight: 600;
+}
+
+.blueArrowImg{
+    height: 45px;
+    cursor: pointer;
+}
+
+@media (max-width: 376px) {
+    .userContainer{
+        gap: 15px;
+        margin-bottom: 32px;
+    }
+
+    .userProfileImg{
+        height: 82px;
+    }
+
+    .user{
+        font-size: 42px;
+    }
+    
+    .remark{
+        font-size: 27px;
+        line-height: 47px;
+    }
+
+    .seeCaseStudyText{
+        font-size: 26px;
+    }
+    
+    .blueArrowImg{
+        height: 73px;
+    }
+}

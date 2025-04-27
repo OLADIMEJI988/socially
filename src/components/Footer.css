@@ -1,0 +1,234 @@
+.footerContainer{
+    background-color: rgba(0, 51, 102, 1);
+    color: var(--background-color);
+    margin-top: 6pc;
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connectText{
+    text-transform: uppercase;
+    font-family: "Merriweather";
+    opacity: 0.6; 
+    letter-spacing: 0.15em;
+    font-size: 11px;
+}
+
+.requestInfoText{
+    font-size: 38px;
+    font-family: "Abhaya Libre";
+    margin-top: 10px;
+}
+
+.aboutSociallyContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Merriweather";
+    opacity: 0.8; 
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 22px;
+}
+
+.contactBtn{
+    background-color: rgba(102, 178, 255, 1);
+    border: none;
+    color: var(--background-color);
+    font-family: "Merriweather";
+    padding: 16px 48px;
+    border-radius: 50px;
+    margin: 34px 0;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+}
+
+.contactBtn:hover{
+    transform: scale(0.95);
+    z-index: 2;
+    transition: 0.5s all ease !important;
+    cursor: pointer;
+}
+
+.copyrightConn{
+    display: flex;
+    font-family: "Merriweather";
+    align-items: center;
+    gap: 2px;
+}
+
+.copyrightConn img{
+    height: 20px;
+}
+
+.copyrightConn p{
+    font-size: 10px;
+    opacity: 0.8;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+}
+
+.line2{
+    margin-top: 25px;
+}
+
+.socialLinksConn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: var(--background-color);
+    width: 100%;
+}
+
+.sociallyLogo{
+    height: 18px;
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+    font-size: 14px;
+    font-family: "Merriweather";
+}
+
+.socialLinksConn a{
+    text-decoration: none;
+    color: var(--background-color);
+}
+
+.socialLinksConn a:hover{
+    color: #66b2ff;
+}
+
+.socials{
+    display: flex;
+    gap: 20px;
+    margin-left: -110px;
+}
+
+.socialConn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 36px;
+    border: 1.5px solid rgb(54, 93, 131);
+    border-radius: 50%;
+}
+
+.socialConn:hover{
+    transform: scale(0.87);
+    z-index: 2;
+    transition: 0.5s all ease !important;
+}
+
+.linkedinImg, .facebookImg{
+    height: 12px;
+}
+
+.instagramImg{
+    height: 11px;
+}
+
+.youtubeImg{
+    height: 9px;
+}
+
+@media (max-width: 376px) {
+    .footerContainer{
+        min-width: 850px;
+        flex-direction: column;
+        margin-top: 9pc;
+        padding: 120px 0;
+        overflow-x: hidden;
+    }
+
+    .connectText{
+        font-size: 19px;
+    }
+
+    .requestInfoText{
+        font-size: 55px;
+    }
+
+    .aboutSociallyContainer{
+        font-size: 23px;
+        line-height: 43px;
+        margin-top: 27px;
+    }
+
+    .contactBtn{
+        padding: 23px 70px;
+        margin: 75px 0;
+        font-weight: 600;
+        font-size: 29px;
+        letter-spacing: 0.06em;
+    }
+
+    .copyrightConn{
+        gap: 5px;
+    }
+
+    .copyrightConn img{
+        height: 36px;
+    }
+    
+    .copyrightConn p{
+        font-size: 21px;
+        letter-spacing: 0.07em;
+    }
+
+    .line2{
+        width: 820px;
+    }
+
+    .socialLinksConn{
+        padding: 0 20px;
+        flex-direction: column;
+        gap: 65px;
+    }
+
+    .sociallyLogo{
+        height: 46px;
+        margin-top: 25px;
+    }
+
+    .links{
+        gap: 50px;
+        font-size: 28px;
+        font-family: "Merriweather";
+    }
+
+    .socials{
+        display: flex;
+        gap: 36px;
+        margin-left: 0;
+    }
+
+    .socialConn{
+        height: 86px;
+        width: 86px;
+        border: 1.5px solid rgb(54, 93, 131);
+    }
+
+    .linkedinImg, .facebookImg{
+        height: 25px;
+    }
+    
+    .instagramImg{
+        height: 24px;
+    }
+    
+    .youtubeImg{
+        height: 22px;
+    }
+}
