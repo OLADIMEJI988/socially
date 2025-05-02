@@ -54,6 +54,11 @@
     color: var(--background-color);
 }
 
+.blackFrameImg{
+    height: 150px;
+    margin-top: 18px;
+}
+
 @media (max-width: 376px)  {
     .blackFrame{
         width: 790px;
