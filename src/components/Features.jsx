@@ -22,27 +22,27 @@ export default function Features() {
        <div className="frames">
             <WhiteFrame 
               mainText="Find events to attend and connect with peers"
-              arrowImg="src/assets/arrow.png"
+              arrowImg={arrowImg}
               secondaryText="See for yourself"
-              whiteFrameImg="src/assets/whiteFrameImg.png"
+              whiteFrameImg={whiteFrameImg}
             />
             <BlackFrame 
               mainText="Find hobbies to engage your mind"
-              arrowImg="src/assets/arrow.png"
+              arrowImg={arrowImg}
               secondaryText="See for yourself"
-              blackFrameImg="src/assets/blackFrameImg.png"
+              blackFrameImg={blackFrameImg}
             />
             <BlackFrame 
               mainText="Chat with other like minded users"
-              arrowImg="src/assets/arrow.png"
+              arrowImg={arrowImg}
               secondaryText="See for yourself"
-              blackFrameImg="src/assets/blackFrameImg2.png"
+              blackFrameImg={blackFrameImg2}
             />
             <WhiteFrame 
               mainText="Learn more about fighting social isolation on our blog"
-              arrowImg="src/assets/arrow.png"
+              arrowImg={arrowImg}
               secondaryText="See for yourself"
-              whiteFrameImg="src/assets/whiteFrameImg2.png"
+              whiteFrameImg={whiteFrameImg2}
             />
         </div>
 

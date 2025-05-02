@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import landingPageImg from "../assets/undraw_off-road_34hg 1.png";
 import mobileLandingPageImg from "../assets/mobile-landingPageImg.png";
+import headerLogo from "../assets/SOCIALLY.png";
+import whiteUserIcon from "../assets/white-user-icon.png";
+import hamburgerMenu from "../assets/menu.png";
+import closePopUpImg from "../assets/closePopUp.png";
 import "./Header.css";
+
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,11 +39,11 @@ export default function Header() {
 
       <header className="mobileHeader">
         <button onClick={openPopup} className="menuBtn">
-          <img className="hamburgerMenu" src="src/assets/menu.png" alt="" />
+          <img className="hamburgerMenu" src={hamburgerMenu} alt="" />
         </button>
-        <img className="headerLogo" src="src/assets/SOCIALLY.png" alt="" />
+        <img className="headerLogo" src={headerLogo} alt="" />
         <div className="userIconContainer">
-          <img className="whiteUserIcon" src="src/assets/white-user-icon.png" alt="" />
+          <img className="whiteUserIcon" src={whiteUserIcon} alt="" />
         </div>
       </header>
       {isOpen && (
@@ -48,7 +53,7 @@ export default function Header() {
           <a href="">Your Hobbies</a>
           <a href="">News</a>
           <button onClick={closePopup} className="closePopUpConn">
-            <img className="closePopUpBtn" src="src/assets/closePopUp.png" alt="" />
+            <img className="closePopUpBtn" src={closePopUpImg} alt="" />
           </button>
         </div>
       )}
