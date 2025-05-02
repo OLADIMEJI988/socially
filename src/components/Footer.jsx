@@ -1,4 +1,16 @@
 import React from 'react'
+import linkedinImg from "../assets/linkedin.png"
+import facebookImg from "../assets/facebook.png"
+import instagramImg from "../assets/instagram.png"
+import youtubeImg from "../assets/youtube.png"
+import copyrightImg from "../assets/copyright.png"
+import line2 from "../assets/Line 2.png"
+import sociallyLogo from "../assets/SOCIALLY.png"
+
+
+
+
+
 import "./Footer.css";
 
 export default function Footer() {
@@ -14,13 +26,13 @@ export default function Footer() {
           </div>
           <button className='contactBtn'>Contact Us</button>
           <div className='copyrightConn'>
-            <img src="src/assets/copyright.png" alt="" />
+            <img src={copyrightImg} alt="" />
             <p>2025 Socially</p>
           </div>
-          <img className='line2' src="src/assets/Line 2.png" alt="" />
+          <img className='line2' src={line2} alt="" />
           <div className='socialLinksConn'>
-            <img className='sociallyLogo' src="src/assets/SOCIALLY.png" alt="" />
-            
+            <img className='sociallyLogo' src={sociallyLogo} alt="" />
+
             <div className='links'>
               <a href="">Team</a>
               <a href="">Discover events</a>
@@ -28,10 +40,10 @@ export default function Footer() {
             </div>
 
             <div className='socials'>
-              <a className='socialConn' href=""><img className='linkedinImg' src="src/assets/linkedin.png" alt="" /></a>
-              <a className='socialConn' href=""><img className='facebookImg' src="src/assets/facebook.png" alt="" /></a>
-              <a className='socialConn' href=""><img className='instagramImg' src="src/assets/instagram.png" alt="" /></a>
-              <a className='socialConn' href=""><img className='youtubeImg' src="src/assets/youtube.png" alt="" /></a>
+              <a className='socialConn' href=""><img className='linkedinImg' src={linkedinImg} alt="" /></a>
+              <a className='socialConn' href=""><img className='facebookImg' src={facebookImg} alt="" /></a>
+              <a className='socialConn' href=""><img className='instagramImg' src={instagramImg} alt="" /></a>
+              <a className='socialConn' href=""><img className='youtubeImg' src={youtubeImg} alt="" /></a>
             </div>
             
           </div>

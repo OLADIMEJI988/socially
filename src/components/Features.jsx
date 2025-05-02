@@ -3,6 +3,12 @@ import "./Features.css";
 import WhiteFrame from "../components/WhiteFrame";
 import BlackFrame from "../components/BlackFrame";
 import PositivePplImg from "../assets/positive-ppl.png"
+import arrowImg from "../assets/arrow.png"
+import whiteFrameImg from "../assets/whiteFrameImg.png"
+import whiteFrameImg2 from "../assets/whiteFrameImg2.png"
+import blackFrameImg from "../assets/blackFrameImg.png"
+import blackFrameImg2 from "../assets/blackFrameImg2.png"
+
 
 export default function Features() {
   return (
@@ -43,27 +49,27 @@ export default function Features() {
         <div className="mobileFrames">
             <WhiteFrame 
               mainText="Find events to attend and connect with peers"
-              arrowImg="src/assets/arrow.png"
+              arrowImg={arrowImg}
               secondaryText="See for yourself"
-              whiteFrameImg="src/assets/whiteFrameImg.png"
+              whiteFrameImg={whiteFrameImg}
             />
             <BlackFrame 
               mainText="Find hobbies to engage your mind"
-              arrowImg="src/assets/arrow.png"
+              arrowImg={arrowImg}
               secondaryText="See for yourself"
-              blackFrameImg="src/assets/blackFrameImg.png"
+              blackFrameImg={blackFrameImg}
             />
             <WhiteFrame 
               mainText="Learn more about fighting social isolation on our blog"
-              arrowImg="src/assets/arrow.png"
+              arrowImg={arrowImg}
               secondaryText="See for yourself"
-              whiteFrameImg="src/assets/whiteFrameImg2.png"
+              whiteFrameImg={whiteFrameImg2}
             />
             <BlackFrame 
               mainText="Chat with other like minded users"
-              arrowImg="src/assets/arrow.png"
+              arrowImg={arrowImg}
               secondaryText="See for yourself"
-              blackFrameImg="src/assets/blackFrameImg2.png"
+              blackFrameImg={blackFrameImg2}
             />
         </div>
 
